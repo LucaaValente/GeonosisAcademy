@@ -1,0 +1,155 @@
+
+{
+  "items": [
+    {
+      "id": "1001",
+      "nombre": "Producto A",
+      "categoria": "Electrónica",
+      "precio": 120.50,
+      "stock": 35,
+      "estado": "Disponible",
+      "detalle": {
+        "descripcion": "Producto A de alta calidad",
+        "proveedor": "Proveedor X",
+        "fechaIngreso": "2025-11-01",
+        "ubicacion": "Almacén 1",
+        "garantia": "2 años"
+      }
+    },
+    {
+      "id": "1002",
+      "nombre": "Producto B",
+      "categoria": "Hogar",
+      "precio": 89.99,
+      "stock": 12,
+      "estado": "Disponible",
+      "detalle": {
+        "descripcion": "Producto B resistente",
+        "proveedor": "Proveedor Y",
+        "fechaIngreso": "2025-10-15",
+        "ubicacion": "Almacén 2",
+        "garantia": "1 año"
+      }
+    },
+    {
+      "id": "1003",
+      "nombre": "Producto C",
+      "categoria": "Oficina",
+      "precio": 45.00,
+      "stock": 0,
+      "estado": "Agotado",
+      "detalle": {
+        "descripcion": "Producto C económico",
+        "proveedor": "Proveedor Z",
+        "fechaIngreso": "2025-09-20",
+        "ubicacion": "Almacén 3",
+        "garantia": "6 meses"
+      }
+    },
+    {
+      "id": "1004",
+      "nombre": "Producto D",
+      "categoria": "Electrodomésticos",
+      "precio": 299.99,
+      "stock": 8,
+      "estado": "Disponible",
+      "detalle": {
+        "descripcion": "Producto D eficiente",
+        "proveedor": "Proveedor X",
+        "fechaIngreso": "2025-08-10",
+        "ubicacion": "Almacén 4",
+        "garantia": "3 años"
+      }
+    },
+    {
+      "id": "1005",
+      "nombre": "Producto E",
+      "categoria": "Jardinería",
+      "precio": 59.90,
+      "stock": 20,
+      "estado": "Disponible",
+      "detalle": {
+        "descripcion": "Producto E duradero",
+        "proveedor": "Proveedor Y",
+        "fechaIngreso": "2025-07-05",
+        "ubicacion": "Almacén 5",
+        "garantia": "1 año"
+      }
+    },
+    {
+      "id": "1006",
+      "nombre": "Producto F",
+      "categoria": "Electrónica",
+      "precio": 150.00,
+      "stock": 15,
+      "estado": "Disponible",
+      "detalle": {
+        "descripcion": "Producto F innovador",
+        "proveedor": "Proveedor Z",
+        "fechaIngreso": "2025-06-15",
+        "ubicacion": "Almacén 6",
+        "garantia": "2 años"
+      }
+    },
+    {
+      "id": "1007",
+      "nombre": "Producto G",
+      "categoria": "Hogar",
+      "precio": 75.50,
+      "stock": 5,
+      "estado": "Disponible",
+      "detalle": {
+        "descripcion": "Producto G compacto",
+        "proveedor": "Proveedor X",
+        "fechaIngreso": "2025-05-20",
+        "ubicacion": "Almacén 7",
+        "garantia": "1 año"
+      }
+    },
+    {
+      "id": "1008",
+      "nombre": "Producto H",
+      "categoria": "Oficina",
+      "precio": 99.99,
+      "stock": 18,
+      "estado": "Disponible",
+      "detalle": {
+        "descripcion": "Producto H ergonómico",
+        "proveedor": "Proveedor Y",
+        "fechaIngreso": "2025-04-10",
+        "ubicacion": "Almacén 8",
+        "garantia": "2 años"
+      }
+    },
+    {
+      "id": "1009",
+      "nombre": "Producto I",
+      "categoria": "Electrodomésticos",
+      "precio": 450.00,
+      "stock": 3,
+      "estado": "Disponible",
+      "detalle": {
+        "descripcion": "Producto I premium",
+        "proveedor": "Proveedor Z",
+        "fechaIngreso": "2025-03-01",
+        "ubicacion": "Almacén 9",
+        "garantia": "5 años"
+      }
+    },
+    {
+      "id": "1010",
+      "nombre": "Producto J",
+      "categoria": "Jardinería",
+      "precio": 35.00,
+      "stock": 50,
+      "estado": "Disponible",
+      "detalle": {
+        "descripcion": "Producto J básico",
+        "proveedor": "Proveedor X",
+        "fechaIngreso": "2025-02-15",
+        "ubicacion": "Almacén 10",
+        "garantia": "6 meses"
+      }
+    }
+  ]
+}

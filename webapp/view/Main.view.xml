@@ -1,0 +1,62 @@
+<mvc:View controllerName="geonosis.table.report.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:fb="sap.ui.comp.filterbar">
+    <Page id="page" title="{i18n>title}">
+    <content>
+    <fb:FilterBar id="filterbar" persistencyKey="myPersKey" useToolbar="false" search=".onSearch" filterChange=".onFilterChange" afterVariantLoad=".onAfterVariantLoad">
+        <fb:filterGroupItems>
+            <fb:FilterGroupItem name="Producto" label="Producto" groupName="Group1" visibleInFilterBar="true">
+                <fb:control>
+                    <Input
+                        value= "{filter>/Producto}">
+                    </Input>
+                </fb:control>
+            </fb:FilterGroupItem>
+            <fb:FilterGroupItem name="Categoria" label="Categoria" groupName="Group1" visibleInFilterBar="true">
+                <fb:control>
+                    <Input
+                        value= "{filter>/Categoria}">
+                    </Input>
+                </fb:control>
+            </fb:FilterGroupItem>
+            <fb:FilterGroupItem name="Precio" label="Precio" groupName="Group1" visibleInFilterBar="true">
+                <fb:control>
+                    <Input
+                        value= "{filter>/Precio}">
+                    </Input>
+                </fb:control>
+            </fb:FilterGroupItem>
+        </fb:filterGroupItems>
+    </fb:FilterBar>
+    <Input
+		showValueHelp="true"
+		valueHelpRequest=".valueHelpRequest">
+        </Input>
+        <Table 
+        id="idTable"
+        items="{/items}">
+                <columns>
+                    <Column><Text text="ID" /></Column>
+                    <Column><Text text="Producto" /></Column>
+                    <Column><Text text="Categoria" /></Column>
+                    <Column><Text text="Precio" /></Column>
+                    <Column><Text text="Stock" /></Column>
+                    <Column><Text text="Estado" /></Column>
+                </columns>
+                <items>
+                    <ColumnListItem type="Navigation" press=".onListItemPress">
+                        <cells>
+                            <Text text="{id}" />
+                            <Text text="{nombre}"/>
+                            <Text text="{categoria}" />
+                            <Text text="{precio}" />
+                            <Text text="{stock}" />
+                            <Text text="{estado}" />
+                        </cells>
+                    </ColumnListItem>
+                </items>
+            </Table>
+        </content>
+    </Page>
+</mvc:View>
